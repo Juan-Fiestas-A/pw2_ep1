@@ -1,0 +1,84 @@
+#main-header{
+    opacity: 1;
+}
+
+a{
+	color : #777 ;
+	text-decoration: none;/*para que los hipervinculos no esten subrayados*/
+}
+
+a:hover{
+    
+    text-decoration: none;
+}
+
+
+
+li a{
+
+	text-decoration: none;
+	display: block;/* de esta manera al ponerle padding al hipervinculo, este no desborda su contenedor*/
+    
+}
+
+p{
+	font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: #777;
+    font-family: open sans,Helvetica,Arial,sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h1:after{
+	content: "";
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	background-color: #2250fc;
+	bottom: -30px;
+	left: 45%;
+	   
+		}
+
+.carousel-inner {
+    opacity: 1;
+    height: 100vh;
+}
+
+.carousel-caption {
+   
+    top: 250px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+}
+
+.carousel-caption2 {
+    text-align: start;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}

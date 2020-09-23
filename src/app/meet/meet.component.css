@@ -1,0 +1,59 @@
+
+
+#meet{
+    background-color: #f7f9fb;
+}
+
+
+#slider-clients{
+    height: 123px;
+}
+
+
+.text_team{
+    padding-left: 20px;
+    padding-top:15px;
+    padding-bottom: 30px;
+    background-color: white; 
+    border: 1px solid #f2f2f2;
+    text-align: center;
+}
+.text_team h3{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.text_team span{
+    font-size: 13px;
+    color: #bbb;
+    line-height: 18px;
+}
+
+.text_team p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.text_team h3{
+    margin-left: 0px;
+}
+
+.text_team i{
+    border: 0.5px solid #4c5667;
+    text-align: center;
+    border-radius: 50%;
+    color: #4c5667;
+
+    margin-bottom: 16px;
+    height: 25px;
+    top: 5px;
+    width: 25px;
+    
+    line-height: 25px;
+	
+ }
+ .img_blog{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}

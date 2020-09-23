@@ -1,0 +1,47 @@
+#back{
+    background-image: url("/assets/blog/20.jpg");
+    height: 324px;
+    background-size: cover!important;
+    background-position: center center;
+    width: 100%;
+    z-index: -100;
+}
+
+.icono2{
+    color: white;
+    margin-bottom: 16px;
+}
+
+#back p{
+    color: white;
+    padding-top: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: white;
+    font-family: open sans,Helvetica,Arial,sans-serif;
+
+}
+
+.counter{
+    color: white;
+    margin-bottom: 14px;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 14px;
+}
+
+#back span:after{
+	content: "";
+    position: absolute;
+    height: 2px;
+    width: 10%;
+    margin: 5px auto;
+    background-color: white;
+    bottom: 45px;
+    left: 45%;
+   
+}

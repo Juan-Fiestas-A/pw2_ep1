@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body{
+	background-color: #ffffff;
+	font-family: 'Raleway', sans-serif,'Helvetica','Arial';
+}
+
+figure{
+	margin-bottom: 0;
+}
+a{
+	color : #777 ;
+	text-decoration: none;/*para que los hipervinculos no esten subrayados*/
+	font-family: 'Poppins', sans-serif;
+}
+
+a:hover{
+    
+    text-decoration: none;
+}
+
+
+
+li a{
+
+	text-decoration: none;
+	display: block;/* de esta manera al ponerle padding al hipervinculo, este no desborda su contenedor*/
+    
+}
+
+p{
+	font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,.h9, .h11, h1, h2, h3, h4, h5, h6  {
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+
+section {
+    padding: 80px 80px 0px 80px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.encabezado-texto.encabezado-section p {
+	font-size: 18px;
+	font-weight: 300;
+   line-height: 22px;
+	  }
+	  
+.encabezado-texto p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  }
+  
+.encabezado-texto{
+	margin-bottom: 30px;
+	}
+
+.sub{
+	font-size: 18px;
+	line-height: 1.68421053em;
+	font-weight: 400;
+		
+	}
+h1{
+	display: block;
+	font-weight: 100;
+	letter-spacing: -.7px;
+	font-size: 48px;
+	text-transform: uppercase;/* para minúsculas */
+	position: relative;
+	margin-bottom: 60px;
+}
+		
+h1:after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: #2250fc;
+	bottom: -30px;
+	left: 45%;
+	   
+		}

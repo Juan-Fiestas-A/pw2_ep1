@@ -1,0 +1,72 @@
+h1{
+    display: block;
+	font-weight: 100;
+	letter-spacing: -.7px;
+	font-size: 48px;
+	text-transform: uppercase;/* para minúsculas */
+	
+	position: relative;
+	margin-bottom: 60px;
+}
+
+h1:after{
+	content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #2250fc;
+    bottom: -30px;
+    left: 45%;
+   
+}
+
+h3{
+	font-size: 18px;
+	font-family: Poppins,Helvetica,Arial,sans-serif;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-left: 84px;
+	margin-bottom: 10px;
+}
+
+
+.box-icon.border {
+    border: 0!important;
+}
+
+.box-icon{
+    margin-bottom: 50px;
+	position: relative;
+	
+}
+[class^=icon] {
+    display: inline-block;
+}
+
+.box-icon .icono{
+	margin-bottom: 16px;
+    height: 46px;
+    position: absolute;
+    top: 5px;
+	width: 46px;
+	
+    border: 3px solid #333;
+    text-align: center;
+    border-radius: 50%;
+	background-color: transparent;
+	
+    color: #333;
+}
+
+.box-icon .icono a, .box-icon .icono i {
+    width: 100%;
+    height: 100%;
+	color: #333;
+	line-height: 42px;
+}
+
+.box-icon p {
+	margin: 0 0 20px 84px;
+	line-height: 1.6;
+    font-size: 14px;
+}

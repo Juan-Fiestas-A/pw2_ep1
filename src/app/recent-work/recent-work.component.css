@@ -1,0 +1,24 @@
+h2{
+	font-weight: 100;
+	letter-spacing: -.7px;
+	font-size: 48px;
+	text-transform: uppercase;/* para minúsculas */
+	
+	position: relative;
+	margin-bottom: 60px;
+}
+h2:after{
+	content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #2250fc;
+    bottom: -30px;
+left: 0px;
+   
+}
+
+#recent{
+    padding-right: 0px;
+    padding-left: 0px;
+}
